@@ -1,13 +1,16 @@
+import "@/styles/footer.css";
+
 export default function Footer() {
   return (
     <footer>
-      <div>
-        <p>
-          &copy; {new Date().getFullYear()} Your Company Name. All rights
-          reserved.
-        </p>
-        <p>Follow us on social media:</p>
-        <ul>
+      <div className="footer">
+        <div>
+          <p>
+            &copy; {new Date().getFullYear()} Kenzo Kerachi. All rights
+            reserved.
+          </p>
+        </div>
+        <ul className="footer-list">
           <li>
             <a>Facebook</a>
           </li>

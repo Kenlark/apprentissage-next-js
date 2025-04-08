@@ -4,16 +4,15 @@
   box-sizing: border-box;
 }
 
-.navbar {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
 }
 
-.navbar-list {
+.footer-list {
   display: flex;
   list-style: none;
   gap: 1rem;
-  margin: 0 auto;
 }
