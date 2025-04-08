@@ -9,6 +9,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  background-color: rgb(34, 34, 34);
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 2rem;
 }
 
 .navbar-list {
