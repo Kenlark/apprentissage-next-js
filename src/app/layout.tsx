@@ -1,11 +1,17 @@
+import "@/styles/layout.css";
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr">
-      <body>{children}</body>
-    </html>
+    <div className="layout">
+      <Navbar />
+      <main className="main-content"> {children} </main>
+      <Footer />
+    </div>
   );
 }
